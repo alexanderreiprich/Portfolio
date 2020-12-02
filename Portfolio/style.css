@@ -1,0 +1,186 @@
+body {
+    background-image: url("bg.png");
+}
+nav{
+    position: sticky;
+    list-style-type: none;
+    margin-top: -15px;
+    padding-left: 10px;
+    top: 0;
+    color: white;
+    background-color: black;
+    width: 235px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: larger;
+    left: 60%;
+    border-radius: 0 0 10px 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+nav a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.kreis {
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: rgb(223, 126, 35);
+    color: white;
+    text-align: center;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.kreis h1 {
+    font-size: 200px;
+    padding-top: 40%;
+}
+.kreis p {
+    margin-top: -15%;
+    margin-left: 20%;
+    font-size: 50px;
+}
+.kreis img{
+    width: 50px;
+    height: 50px;
+}
+.kreis img:hover{
+    width: 60px;
+    height: 60px;
+}
+#images {
+    text-align: center;
+    width: 800px;
+    margin: 5% auto 0 auto;
+
+}
+#images h2 {
+    font-size: 35px;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(223, 126, 35);
+}
+#videos {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5% auto 0 auto;
+    color: rgb(223, 126, 35);
+}
+#videos h2 {
+    margin-left: -680px;
+    font-size: 35px;
+    text-align: center;
+}
+#videos video {
+    width: 800px;
+}
+#audio {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5% auto 0 auto;
+    color: rgb(223, 126, 35);
+}
+#audio h2 {
+    margin-left: -680px;
+    font-size: 35px;
+    text-align: center;
+}
+#audio audio {
+    width: 800px;
+
+}
+#audio p {
+    color:rgb(250, 160, 76);
+    font-size: small;
+}
+#quote {
+    font-size: larger;
+    font-family: sans-serif;
+    color: gray;
+    text-align: center;
+
+}
+#steckbrief {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+}
+h2{
+    margin: 200px auto 0 auto;
+    font-size: 60px;
+    color: rgb(223, 126, 35);
+}
+h3{
+    text-align: center;
+    margin: 200px auto 0 auto;
+    font-size: 50px;
+    color: rgb(223, 126, 35);
+}
+h4{
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 40px;
+    color: rgb(223, 126, 35);
+}
+#steckbrief table{
+    text-align: center;
+    padding-left: 400px;
+    margin-top: 150px;
+}
+#steckbrief img{
+    width: 200px;
+    height: 300px;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+#lebenslauf {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-top: 150px;
+}
+#lebenslauf table{
+    padding-top: 100px;
+    padding-left: 800px;
+}
+#lebenslauf img {
+    margin-top: -150px;
+    margin-left: -700px;
+    height: 107px;
+    width: 256px;
+}
+#aboutmetext {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-top: 150px;
+    margin-left: 550px;
+    width: 800px;
+}
+.formular {
+    font-family: sans-serif;
+    font-size: larger;
+    width: 500px;
+    border: 1px dashed grey;
+    padding: 10px;
+    margin: 50px auto 0 auto;
+    color: gray;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+#grauertext {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+    color: gray;
+}
+.current{
+    color: red;
+}
