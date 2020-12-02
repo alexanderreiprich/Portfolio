@@ -1,0 +1,42 @@
+for (let i: number = 0; i < artikel.length; i++) {
+        
+        //div
+        let newDiv: HTMLDivElement = document.createElement("div");
+        newDiv.id = "articleID" + i;
+
+        loadArticles();
+
+        document.getElementById(artikel[i].typ)?.appendChild(newDiv);
+
+        //h3
+        let newh3: HTMLElement = document.createElement("h3");
+        newh3.innerHTML = artikel[i].name;
+        document.getElementById("articleID" + i)?.appendChild(newh3);
+
+        //img
+        let newImg: HTMLImageElement = document.createElement("img");
+        newImg.src = artikel[i].bild;
+        document.getElementById("articleID" + i)?.appendChild(newImg);
+
+        //p
+        let newP: HTMLParagraphElement = document.createElement("p");
+        newP.innerHTML = artikel[i].beschreibung;
+        document.getElementById("articleID" + i)?.appendChild(newP);
+
+        //h4
+        let newh4: HTMLElement = document.createElement("h4");
+        newh4.innerHTML = artikel[i].preis + "$";
+        document.getElementById("articleID" + i)?.appendChild(newh4);
+
+        //button
+        let newButton: HTMLButtonElement = document.createElement("button");
+        newButton.innerHTML = artikel[i].button_text;
+        if (artikel[i].name != "lobster") { //making sure that the lobster is not purchasable, as it is out of stock.
+            newButton.addEventListener("click", addUpCounter);
+            newButton.addEventListener("click", function(): void {
+                addUpValue(artikel[i].preis); });
+
+        }
+        document.getElementById("articleID" + i)?.appendChild(newButton);
+
+    }
