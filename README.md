@@ -14,4 +14,4 @@ Arcadespiel Breakout in HTML/JavaScript/TypeScript und FUDGE
 
 
 
-https://sleepykira.github.io/Portfolio/Breakout/L07_Breakout_Final/Main.html
+https://sleepykira.github.io/Portfolio/Breakout/Breakout/Main.html
